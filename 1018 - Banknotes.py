@@ -1,7 +1,6 @@
 N = int(input())
 print(N)
 
-
 print(str(N // 100) + ' nota(s) de R$ 100,00')
 N = N % 100
 
