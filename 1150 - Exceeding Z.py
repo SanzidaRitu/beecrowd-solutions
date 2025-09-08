@@ -1,14 +1,14 @@
 x = int(input())
+z = int(input())
 
-y = int(input())
-while y <= x:
-    y = int(input())
+while z <= x:
+    z = int(input())
 
 s = 0
 count = 0
 i = x
 
-while s <= y:
+while s <= z:
     s += i
     i += 1
     count += 1
