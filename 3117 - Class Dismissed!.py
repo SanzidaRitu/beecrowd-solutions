@@ -1,0 +1,11 @@
+n, k = map(int, input().split())
+student = list(map(int, input().split()))
+flag = 0
+
+for i in student:
+    if i > 0:
+        n -= 1
+        if n < k:
+            flag = 1
+            break
+print('YES' if flag == 0 else 'NO')
